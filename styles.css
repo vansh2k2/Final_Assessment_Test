@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #151511;
+    color: white;
+}
+
+header {
+    background-color: #0f0f0a;
+}
+.navBar {
+    display: flex;
+
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link{
+    align-items: center;
+    padding-top: 15%;
+    color: rgb(253, 249, 249);
+}
+
+.logo {
+    /*Addstylesforthelogo*/
+    height: 10%;
+   
+}
+
+nav {
+    /* Add styles for the navigation bar */
+}
+
+main {
+    padding: 20px;
+}
+
+.person-details {
+    /* Add styles for the person details section */
+    display: flex;
+    flex-direction: column;
+}
+
+.person {
+    /* Add styles for each person card */
+}
+
+.picture-form {
+    /* Add styles for the picture form section */
+}
+
+footer {
+    background-color: rgb(51, 0, 202);
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="head">
+        <!-- Sample Logo -->
+        <div class="logo">
+            <img src="/newPhoto.png">
+            <!-- Add your logo here -->
+        </div>
+        <!-- Navigation Bar -->
+        <nav class="navBar">
+            <!-- Add navigation links here -->
+            <a class = "nav-link" href ="#home"> Home </a>
+            <a class = "nav-link" href="#photos"> photos </a>
+            <a class = "nav-link" href="#about_us"> About Us </a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="person-details">
+        </section>
+
+        <section class="picture-form" id="photos">
+            <h2>Upload a Picture</h2>
+            <form>
+                <label for="pictureLink">Picture Link:</label>
+                <input type="text" id="pictureLink" name="pictureLink" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="foot" id="about_us">
+        <!-- Footer content here -->
+    </footer>
+
+    <!-- Add Bootstrap and other scripts (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Add your custom JavaScript to fetch data and populate UI -->
+    <script src="script.js"></script>
+</body>
+</html>
